@@ -2,6 +2,12 @@
 
 RU style theme for xaringan html presentations
 
+## Examples
+
+![Title page](./img/ex/title_page.png)
+
+Example presentation [here](). 
+
 ## Usage
 
 ```
