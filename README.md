@@ -9,7 +9,7 @@ RU style theme for xaringan html presentations
 title: "Title here"
 subtitle: "Sub-title here"
 author: "Your Name"
-date: "`r Sys.Date()`"
+date: "Rutgers University </br> `r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
