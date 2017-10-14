@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Xaringan example</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Joseph V. Casillas" />
+    <link rel="stylesheet" href="http://www.jvcasillas.com/ru_xaringan_css/css/ru_xaringan.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Xaringan example
+## RU css template
+### Joseph V. Casillas
+### Rutgers University </br> 2017-10-14
+
+---
+
+
+
+
+background-size: 100%
+background-image: url(https://media.giphy.com/media/94iS62lx8CRQA/giphy.gif)
+
+???
+
+Image test. Taken from google. 
+
+---
+
+# IPA symbols work in unicode
+
+## /ʃæ.'riŋ.ɡæn/
+
+### /θðszʃʒʂʐçʝʎʟɘɵəɜ/  
+
+#### e̪a̺u̯
+
+---
+
+# Standard slide with R code
+
+
+```r
+2 + 2
+```
+
+```
+## [1] 4
+```
+
+
+```r
+plot(speed ~ dist, data = cars)
+abline(lm(speed ~ dist, data = cars), col = 'red')
+```
+
+&lt;img src="index_files/figure-html/unnamed-chunk-2-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Slide basics
+
+- Unordered list
+
+- This one next
+
+- Footnotes&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[
+[1] Information here.
+]
+
+---
+
+# More basics
+
+## Ordered list
+
+1. one
+2. two 
+3. three
+
+--
+
+- Spaced
+
+--
+
+- List
+
+--
+
+- with increments
+
+--
+
+An incremental 
+--
+sentence with 
+--
+separation.
+
+---
+background-image: url(https://github.com/yihui/xaringan/releases/download/v0.0.2/karl-moustache.jpg)
+background-position: 50% 50%
+class: center, bottom, inverse
+
+# You only live once!
+
+---
+background-image: url(http://www.jvcasillas.com/ru_xaringan_css/img/logo/ru_shield2.png)
+background-position: 90% 50%
+background-size: 300pt
+
+# Another example
+
+### Lists to the left
+
+- We can place images
+- anywhere on the screen
+- by using **background-image**
+- in conjunction with 
+- **background-position**
+
+### Image to the right
+
+- This can replicate my 'float right' hack
+- We can control the 
+- size of the image
+- by using the 
+- **background-size** option
+
+---
+class: center, middle
+
+# Text adjustments
+
+--
+
+It is also possible to change the &lt;blue&gt;color&lt;/blue&gt; of any  
+text by using... 
+
+--
+
+    &lt;COLOR&gt;text here&lt;/COLOR&gt; 
+
+--
+
+For example
+
+--
+
+    &lt;grey&gt;grey&lt;/grey&gt;
+
+--
+
+will make text &lt;grey&gt;grey&lt;/grey&gt;
+
+--
+
+We can do this with white, grey, black, red and blue. 
+
+--
+
+Red is the easiest. We can just use \*\*text\*\* like **this**.
+
+---
+
+# Two columns!
+
+.pull-left[
+
+### Some things on the left
+
+1. List of things
+
+1. Plain Markdown;
+
+1. blah blah
+
+1. Plain Markdown;
+
+]
+
+--
+
+.pull-right[
+
+### and other things on the right
+
+1. We do this by using the 
+
+1. \.pull-left[] and \.pull-right[]
+
+1. commands. Just put any text inside the 
+
+1. brackets and you're good to go
+
+]
+
+---
+
+# R code and highlighting (I never use this)
+
+.pull-left[
+An example using a leading `*`:
+
+    ```r
+    if (TRUE) {
+    ** message("Very important!")
+    }
+    ```
+Output:
+```r
+if (TRUE) {
+* message("Very important!")
+}
+```
+
+This is invalid R code, so it is a plain fenced code block that is not executed.
+]
+
+.pull-right[
+An example using `{{}}`:
+
+    ```{r tidy=FALSE}
+    if (TRUE) {
+    *{{ message("Very important!") }}
+    }
+    ```
+Output:
+
+```r
+if (TRUE) {
+* message("Very important!") 
+}
+```
+
+```
+## Very important!
+```
+
+It is valid R code so you can run it.
+]
+
+---
+class: middle, bottom
+background-image: url(http://www.jvcasillas.com/ru_xaringan_css/img/logo/ru_shield.png)
+background-size: contain
+
+### &lt;grey&gt;You can&lt;/grey&gt;  
+### &lt;grey&gt;fill the&lt;/grey&gt;  
+### &lt;grey&gt;screen with &lt;/grey&gt;  
+### **background-size: contain**
+
+---
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
+background-size: 100px
+background-position: 90% 8%
+
+# xaringan
+
+
+- Press `h` or `?` to see the possible ninjutsu you can use in remark.js.
+
+- You can see all the goodies like this.
+
+- Check out more in-depth tutorial [here](https://slides.yihui.name/xaringan/#1)
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});
+(function() {var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler"); if (!r) return; s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }"; d.head.appendChild(s);})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

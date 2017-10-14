@@ -1,0 +1,256 @@
+---
+title: "Xaringan example"
+subtitle: "RU css template"
+author: "Joseph V. Casillas"
+date: "Rutgers University </br> `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: "http://www.jvcasillas.com/ru_xaringan_css/css/ru_xaringan.css"
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+background-size: 100%
+background-image: url(https://media.giphy.com/media/94iS62lx8CRQA/giphy.gif)
+
+???
+
+Image test. Taken from google. 
+
+---
+
+# IPA symbols work in unicode
+
+## /ʃæ.'riŋ.ɡæn/
+
+### /θðszʃʒʂʐçʝʎʟɘɵəɜ/  
+
+#### e̪a̺u̯
+
+---
+
+# Standard slide with R code
+
+```{r}
+2 + 2
+```
+
+```{r, fig.height=4.5, fig.retina=2, fig.align='center'}
+plot(speed ~ dist, data = cars)
+abline(lm(speed ~ dist, data = cars), col = 'red')
+```
+
+---
+
+# Slide basics
+
+- Unordered list
+
+- This one next
+
+- Footnotes<sup>1</sup>
+
+.footnote[
+[1] Information here.
+]
+
+---
+
+# More basics
+
+## Ordered list
+
+1. one
+2. two 
+3. three
+
+--
+
+- Spaced
+
+--
+
+- List
+
+--
+
+- with increments
+
+--
+
+An incremental 
+--
+sentence with 
+--
+separation.
+
+---
+background-image: url(`r xaringan:::karl`)
+background-position: 50% 50%
+class: center, bottom, inverse
+
+# You only live once!
+
+---
+background-image: url(http://www.jvcasillas.com/ru_xaringan_css/img/logo/ru_shield2.png)
+background-position: 90% 50%
+background-size: 300pt
+
+# Another example
+
+### Lists to the left
+
+- We can place images
+- anywhere on the screen
+- by using **background-image**
+- in conjunction with 
+- **background-position**
+
+### Image to the right
+
+- This can replicate my 'float right' hack
+- We can control the 
+- size of the image
+- by using the 
+- **background-size** option
+
+---
+class: center, middle
+
+# Text adjustments
+
+--
+
+It is also possible to change the <blue>color</blue> of any  
+text by using... 
+
+--
+
+    <COLOR>text here</COLOR> 
+
+--
+
+For example
+
+--
+
+    <grey>grey</grey>
+
+--
+
+will make text <grey>grey</grey>
+
+--
+
+We can do this with white, grey, black, red and blue. 
+
+--
+
+Red is the easiest. We can just use \*\*text\*\* like **this**.
+
+---
+
+# Two columns!
+
+.pull-left[
+
+### Some things on the left
+
+1. List of things
+
+1. Plain Markdown;
+
+1. blah blah
+
+1. Plain Markdown;
+
+]
+
+--
+
+.pull-right[
+
+### and other things on the right
+
+1. We do this by using the 
+
+1. \.pull-left[] and \.pull-right[]
+
+1. commands. Just put any text inside the 
+
+1. brackets and you're good to go
+
+]
+
+---
+
+# R code and highlighting (I never use this)
+
+.pull-left[
+An example using a leading `*`:
+
+    ```r
+    if (TRUE) {
+    ** message("Very important!")
+    }
+    ```
+Output:
+```r
+if (TRUE) {
+* message("Very important!")
+}
+```
+
+This is invalid R code, so it is a plain fenced code block that is not executed.
+]
+
+.pull-right[
+An example using `{{}}`:
+
+    `r ''````{r tidy=FALSE}
+    if (TRUE) {
+    *{{ message("Very important!") }}
+    }
+    ```
+Output:
+```{r tidy=FALSE}
+if (TRUE) {
+{{ message("Very important!") }}
+}
+```
+
+It is valid R code so you can run it.
+]
+
+---
+class: middle, bottom
+background-image: url(http://www.jvcasillas.com/ru_xaringan_css/img/logo/ru_shield.png)
+background-size: contain
+
+### <grey>You can</grey>  
+### <grey>fill the</grey>  
+### <grey>screen with </grey>  
+### **background-size: contain**
+
+---
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
+background-size: 100px
+background-position: 90% 8%
+
+# xaringan
+
+
+- Press `h` or `?` to see the possible ninjutsu you can use in remark.js.
+
+- You can see all the goodies like this.
+
+- Check out more in-depth tutorial [here](https://slides.yihui.name/xaringan/#1)
+
