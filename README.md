@@ -1,6 +1,6 @@
 # ru_xaringan_css
 
-RU style theme for xaringan html presentations
+Minimalist xaringan theme for html presentations using RU style/colors
 
 ## Examples
 
