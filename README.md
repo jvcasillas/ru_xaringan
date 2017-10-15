@@ -10,6 +10,8 @@ Example presentation [here](http://www.jvcasillas.com/ru_xaringan_css/slides/ind
 
 ## Usage
 
+You can use ```lingStuff::create_project()``` or just copy and paste the css link below. 
+
 ```
 ---
 title: "Title here"
