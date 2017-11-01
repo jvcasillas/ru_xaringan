@@ -19,6 +19,7 @@ output:
 options(htmltools.dir.version = FALSE)
 ```
 
+
 background-size: 100%
 background-image: url(https://media.giphy.com/media/94iS62lx8CRQA/giphy.gif)
 

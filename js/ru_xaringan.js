@@ -5,4 +5,3 @@ remark.macros.scale = function (percentage) {
 };
 
 
-<script src="https://use.fontawesome.com/5235085b15.js"></script>
