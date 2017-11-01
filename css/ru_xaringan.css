@@ -139,13 +139,13 @@ img {
 
 
 /* section divider slide */
-.title-slide-section {
+.ru-red {
   background-color: #cc0033;
   padding-left: 100px;  /* delete this for 4:3 aspect ratio */
 }
 
 /* H1 fonts */
-.title-slide-section h1 {
+.ru-red h1 {
   color: #515151;
 }
 
