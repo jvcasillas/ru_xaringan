@@ -342,4 +342,8 @@ class: title-slide-final
 
 # Thanks
 
+## More thanks
+
+### need images
+
 THis is the end

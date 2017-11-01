@@ -191,6 +191,10 @@ img {
   text-shadow: 0 0 20px #333;
 }
 
+.title-slide-final h1, .title-slide-final h2, .title-slide-final h3 {
+  color: #f3f3f3;
+  line-height: 1.0em;
+}
 
 
 
