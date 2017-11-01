@@ -353,14 +353,15 @@ background-position: 90% 8%
 ---
 class: title-slide-final
 
-# Thanks
+# Thanks!
 
-## More thanks
+## This is the final slide
 
-### need images
+### you can add your email, twitter, github, etc. info here
 
-THis is the end
+here is an example:  
 
-more text
-
-
+<a href="mailto:joseph.casillas@rutgers.edu"><white><i class="fa fa-paper-plane fa-fw"></i></white>&nbsp; <white>joseph.casillas@rutgers.edu</a></white><br>
+<a href="https:www.jvcasillas.com/psychopy_ws"><white><i class="fa fa-link fa-fw"></i></white>&nbsp; <white>jvcasillas.com/psychopy_ws</a></white><br>
+<a href="http://twitter.com/jvcasill"><white><i class="fa fa-twitter fa-fw"></i></white>&nbsp; <white>@jvcasill</a></white><br>
+<a href="http://github.com/jvcasillas"><white><i class="fa fa-github fa-fw"></i></white>&nbsp; <white>@jvcasillas</a></white><br>
