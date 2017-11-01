@@ -165,6 +165,10 @@ img {
   color: #515151;
 }
 
+/* section divider red p fonts */
+.title-slide-section-red p {
+  color: #fff;
+}
 
 /* section divider grey */
 .title-slide-section-grey {
@@ -186,6 +190,7 @@ img {
 
 .title-slide-final {
   background-color: #272822;
+  color: #cc0033;
   padding-left: 100px; 
   text-shadow: 0 0 20px #333;
   text-align: center !important;
