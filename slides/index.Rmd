@@ -19,7 +19,6 @@ output:
 options(htmltools.dir.version = FALSE)
 ```
 
-
 background-size: 100%
 background-image: url(https://media.giphy.com/media/94iS62lx8CRQA/giphy.gif)
 
@@ -272,12 +271,6 @@ remark.macros.scale = function (percentage) {
 
 ---
 
-
-
-
-
-
-
 # RU stuff
 
 ### Sections
@@ -293,7 +286,6 @@ or
 ```md
 class: title-slide-section-grey
 ```
-
 
 ---
 class: title-slide-section-red
@@ -317,25 +309,19 @@ hellos
 
 # Tables
 
+### Centering
+
+- We can center tables by surrounding them with .center[]
+- This is not standard in xaringan, but is added in the <RUred>ru_xaringan</RUred> custom css
+
 .center[
 
-| This |  is  |   a    | Table  |
-| :--- | :--- | :----- | :----: |
-| I    | will | try to | center |
-| this | is   | a      |  test  |
+|  This |  is |  a   |     Table      |
+| :---- | :-- | :--- | :------------: |
+| It is | now | able | to be centered |
+| 12    | 34  | 56   |       78       |
 
 ]
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
@@ -343,7 +329,6 @@ background-size: 100px
 background-position: 90% 8%
 
 # xaringan
-
 
 - Press `h` or `?` to see the possible ninjutsu you can use in remark.js.
 
