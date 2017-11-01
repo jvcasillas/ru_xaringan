@@ -4,16 +4,16 @@
     <title>Xaringan example</title>
     <meta charset="utf-8">
     <meta name="author" content="Joseph V. Casillas" />
-    <link rel="stylesheet" href="http://www.jvcasillas.com/ru_xaringan_css/css/ru_xaringan.css" type="text/css" />
+    <link rel="stylesheet" href="http://www.jvcasillas.com/ru_xaringan/css/ru_xaringan.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
 # Xaringan example
-## RU css template
+## RU template
 ### Joseph V. Casillas
-### Rutgers University </br> 2017-10-14
+### Rutgers University </br> 2017-11-01
 
 ---
 
@@ -256,6 +256,34 @@ background-size: contain
 ### **background-size: contain**
 
 ---
+
+# Macros
+
+- We can insert javascript macros into our presentations
+- For example, if we put the following code into `macros.js`...
+
+```js
+remark.macros.scale = function (percentage) {
+  var url = this;
+  return '&lt;img src="' + url + '" style="width: ' + percentage + '" /&gt;';
+};
+```
+
+- ...we can use the markdown call to resize images...
+
+```md
+![:scale 25%](../img/logo/ru_shield2.png)
+```
+
+- These calls can also be put inside html divs so as to control where they appear. 
+
+&lt;div align="center"&gt;
+![:scale 20%](../img/logo/ru_shield2.png)
+&lt;/div&gt;
+
+- All we need to do is include `beforeInit: "macros.js"` under nature in our YAML front matter
+
+---
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
 background-size: 100px
 background-position: 90% 8%
@@ -270,14 +298,22 @@ background-position: 90% 8%
 - Check out more in-depth tutorial [here](https://slides.yihui.name/xaringan/#1)
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
 "highlightLines": true,
 "countIncrementalSlides": false,
 "ratio": "16:9"
 });
-if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});
-(function() {var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler"); if (!r) return; s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }"; d.head.appendChild(s);})();</script>
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({

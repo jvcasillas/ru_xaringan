@@ -1,13 +1,14 @@
 ---
 title: "Xaringan example"
-subtitle: "RU css template"
+subtitle: "RU template"
 author: "Joseph V. Casillas"
 date: "Rutgers University </br> `r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: "http://www.jvcasillas.com/ru_xaringan_css/css/ru_xaringan.css"
+    css: "http://www.jvcasillas.com/ru_xaringan/css/ru_xaringan.css"
     nature:
+      beforeInit: "macros.js"
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -239,6 +240,34 @@ background-size: contain
 ### <grey>fill the</grey>  
 ### <grey>screen with </grey>  
 ### **background-size: contain**
+
+---
+
+# Macros
+
+- We can insert javascript macros into our presentations
+- For example, if we put the following code into `macros.js`...
+
+```js
+remark.macros.scale = function (percentage) {
+  var url = this;
+  return '<img src="' + url + '" style="width: ' + percentage + '" />';
+};
+```
+
+- ...we can use the markdown call to resize images...
+
+```md
+![:scale 25%](../img/logo/ru_shield2.png)
+```
+
+- These calls can also be put inside html divs so as to control where they appear. 
+
+<div align="center">
+![:scale 20%](../img/logo/ru_shield2.png)
+</div>
+
+- All we need to do is include `beforeInit: "macros.js"` under nature in our YAML front matter
 
 ---
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)
