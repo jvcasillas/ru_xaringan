@@ -6,7 +6,7 @@ Minimalist xaringan theme for html presentations using RU style/colors
 
 ![Title page](./img/ex/title_page.png)
 
-Example presentation [here](http://www.jvcasillas.com/ru_xaringan_css/slides/index.html). 
+Example presentation [here](http://www.jvcasillas.com/ru_xaringan/slides/index.html). 
 
 ## Usage
 

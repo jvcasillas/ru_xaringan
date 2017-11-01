@@ -8,11 +8,13 @@ output:
     lib_dir: libs
     css: "http://www.jvcasillas.com/ru_xaringan/css/ru_xaringan.css"
     nature:
-      beforeInit: "http://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"
+      beforeInit: ["http://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"]
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
+    includes:
+      in_header: "./libs/partials/header.html"
 ---
 
 ```{r setup, include=FALSE}
@@ -337,7 +339,7 @@ background-position: 90% 8%
 - Check out more in-depth tutorial [here](https://slides.yihui.name/xaringan/#1)
 
 ---
-class: title-slide-final
+class: title-slide-final, middle
 
 # Thanks!
 
@@ -347,7 +349,9 @@ class: title-slide-final
 
 here is an example:  
 
-<a href="mailto:joseph.casillas@rutgers.edu"><white><i class="fa fa-paper-plane fa-fw"></i></white>&nbsp; <white>joseph.casillas@rutgers.edu</a></white><br>
-<a href="https:www.jvcasillas.com/psychopy_ws"><white><i class="fa fa-link fa-fw"></i></white>&nbsp; <white>jvcasillas.com/psychopy_ws</a></white><br>
-<a href="http://twitter.com/jvcasill"><white><i class="fa fa-twitter fa-fw"></i></white>&nbsp; <white>@jvcasill</a></white><br>
-<a href="http://github.com/jvcasillas"><white><i class="fa fa-github fa-fw"></i></white>&nbsp; <white>@jvcasillas</a></white><br>
+|                                                                                                     |                                                |
+| --------------------------------------------------------------------------------------------------: | :--------------------------------------------- |
+| <a href="mailto:joseph.casillas@rutgers.edu"><white><i class="fa fa-paper-plane fa-fw"></i></white> | <white>joseph.casillas@rutgers.edu</a></white> |
+|      <a href="https:www.jvcasillas.com/psychopy_ws"><white><i class="fa fa-link fa-fw"></i></white> | <white>jvcasillas.com/psychopy_ws</a></white>  |
+|            <a href="http://twitter.com/jvcasill"><white><i class="fa fa-twitter fa-fw"></i></white> | <white>@jvcasill</a></white>                   |
+|            <a href="http://github.com/jvcasillas"><white><i class="fa fa-github fa-fw"></i></white> | <white>@jvcasillas</a></white>                 |
