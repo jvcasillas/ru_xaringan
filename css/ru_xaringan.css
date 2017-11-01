@@ -187,13 +187,7 @@ img {
 .title-slide-final {
   background-color: #272822;
   padding-left: 100px; 
-  color: #777872;
   text-shadow: 0 0 20px #333;
-  text-align: center;
-}
-
-.title-slide-final h1 {
-  color: #515151;
   text-align: center;
 }
 
