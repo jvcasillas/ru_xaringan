@@ -139,12 +139,15 @@ img {
 
 
 /* section divider slide */
-.new-section {
+.section-slide {
   background-color: RUred;
   padding-left: 100px;  /* delete this for 4:3 aspect ratio */
 }
 
-
+/* H1 fonts */
+.section-slide h1 {
+  color: #515151;
+}
 
 
 
