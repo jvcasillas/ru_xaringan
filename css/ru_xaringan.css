@@ -182,7 +182,7 @@ img {
 }
 
 .title-slide-section-grey p {
-  color: #fff;
+  color: #fff !important;
 }
 
 
@@ -193,7 +193,7 @@ img {
 
 .title-slide-final {
   background-color: #272822;
-  color: #fff;
+  color: #fff !important;
   padding-left: 100px; 
   text-shadow: 0 0 20px #333;
   text-align: center !important;
