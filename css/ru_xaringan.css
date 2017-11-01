@@ -192,6 +192,9 @@ img {
 /*~~~~~~~~~~~~~~~~~~*/
 
 .title-slide-final {
+  background-image: url(http://www.jvcasillas.com/ru_xaringan_css/img/logo/ru_shield.png);
+  background-position: 9% 15%;
+  background-size: 55px;
   background-color: #272822;
   color: #fff !important;
   padding-left: 100px; 

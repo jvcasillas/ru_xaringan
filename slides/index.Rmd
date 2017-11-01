@@ -349,9 +349,9 @@ class: title-slide-final, middle
 
 here is an example:  
 
-|                                                                                                     |                                                |
-| --------------------------------------------------------------------------------------------------: | :--------------------------------------------- |
-| <a href="mailto:joseph.casillas@rutgers.edu"><white><i class="fa fa-paper-plane fa-fw"></i></white> | <white>joseph.casillas@rutgers.edu</a></white> |
-|      <a href="https:www.jvcasillas.com/psychopy_ws"><white><i class="fa fa-link fa-fw"></i></white> | <white>jvcasillas.com/psychopy_ws</a></white>  |
-|            <a href="http://twitter.com/jvcasill"><white><i class="fa fa-twitter fa-fw"></i></white> | <white>@jvcasill</a></white>                   |
-|            <a href="http://github.com/jvcasillas"><white><i class="fa fa-github fa-fw"></i></white> | <white>@jvcasillas</a></white>                 |
+|                                                                                                                 |                                       |
+| :-------------------------------------------------------------------------------------------------------------- | :------------------------------------ |
+| <a href="mailto:joseph.casillas@rutgers.edu"><RUred><i class="fa fa-paper-plane fa-fw"></i></RUred>               | joseph.casillas@rutgers.edu</a>       |
+| <a href="http://www.jvcasillas.com/ru_xaringan/slides/index.html"><RUred><i class="fa fa-link fa-fw"></i></RUred> | jvcasillas.com/ru_xaringan/slides</a> |
+| <a href="http://twitter.com/jvcasill"><RUred><i class="fa fa-twitter fa-fw"></i></RUred>                          | @jvcasill</a>                         |
+| <a href="http://github.com/jvcasillas"><RUred><i class="fa fa-github fa-fw"></i></RUred>                          | @jvcasillas</a>                       |
