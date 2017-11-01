@@ -1,4 +1,4 @@
-# ru_xaringan_css
+# ru_xaringan
 
 Minimalist xaringan theme for html presentations using RU style/colors
 
@@ -21,8 +21,9 @@ date: "Rutgers University </br> `r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: "http://www.jvcasillas.com/ru_xaringan_css/css/ru_xaringan.css"
+    css: "http://www.jvcasillas.com/ru_xaringan/css/ru_xaringan.css"
     nature:
+      beforeInit: "http://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false

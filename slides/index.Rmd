@@ -8,7 +8,7 @@ output:
     lib_dir: libs
     css: "http://www.jvcasillas.com/ru_xaringan/css/ru_xaringan.css"
     nature:
-      beforeInit: "macros.js"
+      beforeInit: "http://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -268,6 +268,19 @@ remark.macros.scale = function (percentage) {
 </div>
 
 - All we need to do is include `beforeInit: "macros.js"` under nature in our YAML front matter
+
+---
+
+# RU stuff
+
+- Sections
+
+---
+class: new-section
+
+# Hi
+
+
 
 ---
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)

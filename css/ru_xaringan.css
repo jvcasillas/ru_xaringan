@@ -136,17 +136,40 @@ img {
 }
 
 
-/* Global adjustments */
 
-/* Add padding to all slides for 16:9 aspect ration */
+
+/* section divider slide */
+.new-section {
+  background-color: RUred;
+  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+}
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~*/
+/* Global adjustments */
+/*~~~~~~~~~~~~~~~~~~~~*/
+
+
+/* Add padding to all slides for 16:9 aspect ratio */
 .remark-slide-content {
   padding-left: 100px;  /* delete this for 4:3 aspect ratio */
 }
 
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* Color adjustments for text */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 /* Make bold syntax compile to RU-red */
 strong {
   color: #cc0033 !important;
+}
+
+RUred {
+  color: #cc0033;
 }
 
 /* Add blue tag */
@@ -198,6 +221,9 @@ th {
 td {
     padding:0 15px 0 15px;
 }
+
+
+
 
 
 
