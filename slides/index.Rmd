@@ -282,7 +282,7 @@ remark.macros.scale = function (percentage) {
 - Sections
 
 ---
-class: section-red
+class: title-slide-section-red
 
 # RU red section divider
 
@@ -291,7 +291,7 @@ class: section-red
 hellos
 
 ---
-class: section-grey
+class: title-slide-section-grey
 
 # RU grey section divider
 

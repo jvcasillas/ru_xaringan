@@ -155,25 +155,25 @@ img {
 /*~~~~~~~~~~~~~~~~~~*/
 
 /* section divider red */
-.section-red {
+.title-slide-section-red {
   background-color: #cc0033;
   padding-left: 100px;  /* delete this for 4:3 aspect ratio */
 }
 
 /* section divider red H1 fonts */
-.section-red h1 {
+.title-slide-section-red h1 {
   color: #515151;
 }
 
 
 /* section divider grey */
-.section-grey {
+.title-slide-section-grey {
   background-color: #515151;
   padding-left: 100px;  /* delete this for 4:3 aspect ratio */
 }
 
 /* section divider grey H1 fonts */
-.section-grey h1 {
+.title-slide-section-grey h1 {
   color: #cc0033;
 }
 
