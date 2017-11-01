@@ -276,18 +276,33 @@ remark.macros.scale = function (percentage) {
 - Sections
 
 ---
-class: ru-red
+class: title-slide-red
 
 # Hi
 
 ---
-class: ru-red
+class: title-slide-red
 
 # Hi
 
 ### THis is hi
 
 hellos
+
+---
+class: title-slide-grey
+
+# Hi
+
+---
+class: title-slide-grey
+
+# Hi
+
+### THis is hi
+
+hellos
+
 
 ---
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Sharingan_triple.svg)

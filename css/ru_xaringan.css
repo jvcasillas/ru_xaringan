@@ -138,17 +138,32 @@ img {
 
 
 
-/* section divider slide */
-.ru-red {
+/*~~~~~~~~~~~~~~~~~~*/
+/* SECTION DIVIDERS */
+/*~~~~~~~~~~~~~~~~~~*/
+
+/* section divider red */
+.title-slide-red {
   background-color: #cc0033;
   padding-left: 100px;  /* delete this for 4:3 aspect ratio */
 }
 
-/* H1 fonts */
-.ru-red h1 {
+/* section divider red H1 fonts */
+.title-slide-red h1 {
   color: #515151;
 }
 
+
+/* section divider grey */
+.title-slide-grey {
+  background-color: #cc0033;
+  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+}
+
+/* section divider grey H1 fonts */
+.title-slide-grey h1 {
+  color: #515151;
+}
 
 
 
