@@ -132,7 +132,7 @@ img {
 
 /* Remove slide count */
 .title-slide .remark-slide-number {
-  text-shadow: none;
+  text-shadow: none !important;
 }
 
 
@@ -192,9 +192,6 @@ img {
 /*~~~~~~~~~~~~~~~~~~*/
 
 .title-slide-final {
-  background-image: url(http://www.jvcasillas.com/ru_xaringan_css/img/logo/ru_shield.png);
-  background-position: 9% 15%;
-  background-size: 55px;
   background-color: #272822;
   color: #fff !important;
   padding-left: 100px; 
