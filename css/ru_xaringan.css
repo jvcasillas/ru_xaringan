@@ -177,10 +177,13 @@ img {
 }
 
 /* section divider grey H1 fonts */
-.title-slide-section-grey h1 {
+.title-slide-section-grey h1, .title-slide-section-grey h2, .title-slide-section-grey h3 {
   color: #cc0033;
 }
 
+.title-slide-section-grey p {
+  color: #fff;
+}
 
 
 
@@ -190,12 +193,15 @@ img {
 
 .title-slide-final {
   background-color: #272822;
-  color: #cc0033;
+  color: #fff;
   padding-left: 100px; 
   text-shadow: 0 0 20px #333;
   text-align: center !important;
 }
 
+.title-slide-final h1{
+  color: #cc0033;
+}
 
 
 
