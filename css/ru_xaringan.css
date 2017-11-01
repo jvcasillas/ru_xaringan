@@ -138,6 +138,18 @@ img {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*~~~~~~~~~~~~~~~~~~*/
 /* SECTION DIVIDERS */
 /*~~~~~~~~~~~~~~~~~~*/
@@ -164,6 +176,23 @@ img {
 .title-slide-section-grey h1 {
   color: #cc0033;
 }
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~*/
+/* FINAL SLIDE      */
+/*~~~~~~~~~~~~~~~~~~*/
+
+.title-slide-final {
+  background-color: #272822;
+  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+}
+
+
+
+
+
 
 
 
@@ -237,6 +266,16 @@ h3 {
   font-size: 1.5em;
 }
 
+
+
+
+
+
+
+
+
+
+
 /*~~~~~~~~~~~~~*/
 /* Misc. fixes */
 /*~~~~~~~~~~~~~*/
@@ -249,7 +288,6 @@ th {
 td {
     padding:0 15px 0 15px;
 }
-
 
 /* allow centering of tables */
 table { 
