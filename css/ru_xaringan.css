@@ -192,9 +192,15 @@ img {
   text-align: center;
 }
 
+.title-slide-final h1 {
+  color: #515151;
+  text-align: center;
+}
+
 .title-slide-final h2, .title-slide-final h3 {
   color: #f3f3f3;
   line-height: 1.0em;
+  text-align: center;
 }
 
 
