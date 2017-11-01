@@ -178,7 +178,7 @@ img {
 
 /* section divider grey H1 fonts */
 .title-slide-section-grey h1, .title-slide-section-grey h2, .title-slide-section-grey h3 {
-  color: #cc0033;
+  color: #cc0033 !important;
 }
 
 .title-slide-section-grey p {
@@ -199,7 +199,7 @@ img {
   text-align: center !important;
 }
 
-.title-slide-final h1{
+.title-slide-final h1 {
   color: #cc0033;
 }
 
