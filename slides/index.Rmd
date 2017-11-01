@@ -103,7 +103,7 @@ class: center, bottom, inverse
 # You only live once!
 
 ---
-background-image: url(http://www.jvcasillas.com/ru_xaringan_css/img/logo/ru_shield2.png)
+background-image: url(http://www.jvcasillas.com/ru_xaringan/img/logo/ru_shield2.png)
 background-position: 90% 50%
 background-size: 300pt
 
@@ -294,18 +294,30 @@ class: title-slide-section-red
 
 # RU red section divider
 
-### THis is hi
+### This is the H3 font color
 
-hellos
+- Our text goes here
+
+- We can use **bold**
+
+- and <blue>blue</blue>
+
+- and also <grey>grey</grey>
 
 ---
 class: title-slide-section-grey
 
 # RU grey section divider
 
-### THis is hi
+### This is the H3 font color
 
-hellos
+- Our text goes here
+
+- We can use **bold**
+
+- and <blue>blue</blue>
+
+- and also <black>black</black>
 
 ---
 
