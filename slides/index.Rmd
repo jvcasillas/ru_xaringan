@@ -276,12 +276,12 @@ remark.macros.scale = function (percentage) {
 - Sections
 
 ---
-class: title-slide-red
+class: title-slide-section-red
 
 # Hi
 
 ---
-class: title-slide-red
+class: title-slide-section-red
 
 # Hi
 
@@ -290,18 +290,31 @@ class: title-slide-red
 hellos
 
 ---
-class: title-slide-grey
+class: title-slide-section-grey
 
 # Hi
 
 ---
-class: title-slide-grey
+class: title-slide-section-grey
 
 # Hi
 
 ### THis is hi
 
 hellos
+
+---
+
+# Tables
+
+.center[
+
+| This |  is  |   a    | Table  |
+| :--- | :--- | :----- | :----: |
+| I    | will | try to | center |
+| this | is   | a      |  test  |
+
+]
 
 
 ---
