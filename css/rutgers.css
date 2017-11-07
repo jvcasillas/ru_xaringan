@@ -12,10 +12,10 @@ a, a > code {
   text-decoration: none;
 }
 
-/* slightly higher and bigger than default */
+/* slightly lower and bigger than default */
 .footnote {
   position: absolute;
-  bottom: 5em;
+  bottom: 2em;
   padding-right: 4em;
   font-size: 95%;
 }
