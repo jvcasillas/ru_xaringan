@@ -15,7 +15,7 @@ a, a > code {
 /* slightly lower and bigger than default */
 .footnote {
   position: absolute;
-  /*bottom: 1em;*/
+  bottom: 1em;
   padding-right: 4em;
   font-size: 95%;
 }
