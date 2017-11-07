@@ -63,12 +63,13 @@ abline(lm(speed ~ dist, data = cars), col = 'red')
 # Slide basics
 
 - Unordered lists
-
-- can be created using "-"
-
+  - can be created using "-"
+  - and they can be nested using 2 or 4 spaces
 - We can also make `blockquotes`
+  - we can use `<blockquote>text</blockquote>` 
+  - or `>`
 
-<blockquote>what is this?</blockquote>
+<blockquote>This is a blocked quote</blockquote>
 
 - Footnotes<sup>1</sup>
 
