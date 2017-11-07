@@ -7,17 +7,76 @@ Updated: 10/15/2017
 
 /* Package defaults that we slightly tweak */
 
+a, a > code {
+  color: #cc0033; /* rgb(249, 38, 114) */
+  text-decoration: none;
+}
+
+/* slightly higher and bigger than default */
+.footnote {
+  position: absolute;
+  bottom: 5em;
+  padding-right: 4em;
+  font-size: 95%;
+}
+
+/* important code slightly red */
+.remark-code-line-highlighted     { background-color: #F53030; }
+
+/* color tweak */
 .inverse {
   background-color: #272822;
   color: #777872;
   text-shadow: 0 0 20px #333;
 }
+
+/* slightly spacing change */
 .inverse h1, .inverse h2, .inverse h3 {
   color: #f3f3f3;
   line-height: 1.0em;
 }
 
+/* Two-column layout (slightly wider for aspect ration) */
+.left-column {
+  color: #777;
+  width: 25%;
+  height: 92%;
+  float: left;
+}
 
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: #000;
+}
+
+/* slightly thiner to suppor aspect ration */
+.right-column {
+  width: 70%;
+  float: right;
+  padding-top: 1em;
+}
+
+.pull-left {
+  float: left;
+  width: 45%;
+}
+
+.pull-right {
+  float: right;
+  width: 45%;
+}
+
+.pull-right ~ * {
+  clear: both;
+}
+
+img, video, iframe {
+  max-width: 100%;
+}
+
+blockquote {
+  border-left: solid 5px lightgray;
+  padding-left: 1em;
+}
 
 
 
@@ -74,19 +133,6 @@ Updated: 10/15/2017
 .title-slide .remark-slide-number {
   text-shadow: none;
 }
-
-.title-slide h4 {
-  color: #fff;
-}
-
-
-
-
-
-
-
-
-
 
 
 
@@ -145,13 +191,6 @@ Updated: 10/15/2017
 .title-slide-final h1 {
   color: #cc0033;
 }
-
-
-
-
-
-
-
 
 
 
