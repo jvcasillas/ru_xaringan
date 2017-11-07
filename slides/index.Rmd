@@ -38,6 +38,13 @@ Image test. Taken from google.
 
 #### e̪a̺u̯
 
+|     Word    | Phonological transcription | Phonetic transcription |
+| :---------- | -------------------------- | ---------------------- |
+| casa        | /ˈka.sa/                   | [ˈka.sa]               |
+| taco (Sp.)  | /ˈta.ko/                   | [ˈta.ko]               |
+| taco (Eng.) | /ˈta.ko/                   | [ˈt<sup>h</sup>a.ko]   |
+
+
 ---
 
 # Standard slide with R code
@@ -274,6 +281,14 @@ remark.macros.scale = function (percentage) {
 ---
 
 # RU stuff
+
+### General
+
+- The theme was designed to work with a 16:9 aspect ratio
+- Set the aspect ratio under the **nature** output parameter...  
+    nature:  
+      ratio: "16:9"
+
 
 ### Sections
 
