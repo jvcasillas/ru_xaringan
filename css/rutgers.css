@@ -83,8 +83,8 @@ blockquote {
   background-color: #515151;
   padding: 1em;
   color: #fff;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px; 
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; 
 }
 
 /* adjust table horizontal spacing */
