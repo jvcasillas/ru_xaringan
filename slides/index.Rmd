@@ -74,11 +74,7 @@ abline(lm(speed ~ dist, data = cars), col = 'red')
 
 - This one next
 
-- This one next
-- This one next
-- This one next
-- This one next
-- This one next
+>what is this?
 
 - Footnotes<sup>1</sup>
 
