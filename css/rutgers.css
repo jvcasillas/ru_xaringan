@@ -21,7 +21,10 @@ a, a > code {
 }
 
 /* important code slightly red */
-.remark-code-line-highlighted     { background-color: #F53030; }
+.remark-code-line-highlighted { 
+  background-color: #4B6FEA; 
+  color: #cc0033;
+}
 
 /* color tweak */
 .inverse {
