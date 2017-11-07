@@ -293,26 +293,4 @@ td {
 }
 
 
-/*table {
-   display: inline-block; 
-   border-top: none;
-   border-bottom: none;
-   background: none;
- }*/
-
-/*table thead th { border-bottom: none }
-thead, tfoot, tr:nth-child(even) { background: none }
-
-.inverse thead, tfoot, tr:nth-child(even) { background: none }
-*/
-
-table {
-  margin: auto;
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
-}
-table thead th { border-bottom: 1px solid #ddd; }
-th, td { padding: 5px; }
-thead, tfoot, tr:nth-child(even) { background: #eee }
-
 
