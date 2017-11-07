@@ -6,7 +6,7 @@
 /*@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);*/
 /*@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);*/
 
-body { font-family: 'Ubuntu', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif; }
+body { font-family: 'Ubuntu', serif; }
 h1, h2, h3 {
   font-family: 'Ubuntu';
   font-weight: normal;
