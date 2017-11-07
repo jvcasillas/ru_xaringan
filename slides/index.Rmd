@@ -149,7 +149,7 @@ For example
 
 --
 
-will make text <grey>grey</grey>
+will make text <grey>grey</grey>, <black>black</black> and <RUred>red</RUred> <blue>blue</blue>
 
 --
 

@@ -301,10 +301,12 @@ td {
     padding:0 15px 0 15px;
 }
 
+
 table {
    display: inline-block; 
    border-top: none;
    border-bottom: none;
+   background: none;
  }
 
 table thead th { border-bottom: none }
@@ -312,17 +314,5 @@ thead, tfoot, tr:nth-child(even) { background: #fff }
 
 
 
-
-
-
-
-/* I dont remember what this does */
-aside.gdbar img {
-  width: 85px; 
-  height: 85px; 
-  position: absolute;
-  right: 0;
-  margin: 8px 15px;
-}
 
 
