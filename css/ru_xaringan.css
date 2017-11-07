@@ -77,9 +77,6 @@ img {
 
 
 
-/* Font adjustment */
-
-@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
 
 
 /*~~~~~~~~~~~~~*/
@@ -88,7 +85,7 @@ img {
 
 /* Add image and change bg color */
 .title-slide {
-  background-image: url(http://www.jvcasillas.com/ru_xaringan/img/logo/ru_shield.png);
+  background-image: url(https://github.com/jvcasillas/ru_xaringan/raw/master/img/logo/ru_shield.png);
   background-position: 9% 15%;
   background-size: 55px;
   background-color: #fff;
@@ -132,7 +129,7 @@ img {
 
 /* Remove slide count */
 .title-slide .remark-slide-number {
-  text-shadow: none !important;
+  text-shadow: none;
 }
 
 .title-slide h4 {
@@ -181,11 +178,11 @@ img {
 
 /* section divider grey H1 fonts */
 .title-slide-section-grey h1, .title-slide-section-grey h2, .title-slide-section-grey h3 {
-  color: #cc0033 !important;
+  color: #cc0033;
 }
 
 .title-slide-section-grey p {
-  color: #fff !important;
+  color: #fff;
 }
 
 
@@ -196,10 +193,10 @@ img {
 
 .title-slide-final {
   background-color: #272822;
-  color: #fff !important;
+  color: #fff;
   padding-left: 100px; 
   text-shadow: 0 0 20px #333;
-  text-align: center !important;
+  text-align: center;
 }
 
 .title-slide-final h1 {
@@ -237,32 +234,32 @@ img {
 
 /* Make bold syntax compile to RU-red */
 strong {
-  color: #cc0033 !important;
+  color: #cc0033;
 }
 
-RUred {
+.RUred {
   color: #cc0033;
 }
 
 /* Add blue tag */
-blue {
+.blue {
   color: #0000CC;
   font-weight: bold;
 }
 
 /* Add grey tag */
-grey {
+.grey {
   color: #515151;
 }
 
 /* Force black */
-black {
+.black {
   color: black;
   font-weight: bold;
 }
 
 /* Add white tag */
-white {
+.white {
   color: white;
 }
 
@@ -304,10 +301,14 @@ td {
     padding:0 15px 0 15px;
 }
 
-/* allow centering of tables */
-table { 
-  display: inline-block; 
-}
+table {
+   display: inline-block; 
+   border-top: none;
+   border-bottom: none;
+ }
+
+table thead th { border-bottom: none }
+thead, tfoot, tr:nth-child(even) { background: #fff }
 
 
 
