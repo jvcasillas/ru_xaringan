@@ -195,7 +195,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 }
 
 /* section divider red H1 fonts */
-.title-slide-section-red h1 {
+.title-slide-section-red h1, .title-slide-section-red h2, .title-slide-section-red h3 {
   color: #717171;
 }
 
