@@ -21,7 +21,7 @@ date: "Rutgers University </br> `r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: "http://www.jvcasillas.com/ru_xaringan/css/ru_xaringan.css"
+    css: ["http://www.jvcasillas.com/ru_xaringan/css/rutgers.css", "http://www.jvcasillas.com/ru_xaringan/css/rutgers-fonts.css"]
     nature:
       beforeInit: "http://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"
       highlightStyle: github
