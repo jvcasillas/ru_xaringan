@@ -49,13 +49,11 @@ Image test. Taken from google.
 
 # Standard slide with R code
 
-```{r}
-2 + 2
-```
-
-```{r, fig.height=4.5, fig.retina=2, fig.align='center'}
-plot(speed ~ dist, data = cars)
-abline(lm(speed ~ dist, data = cars), col = 'red')
+```{r, fig.height=4.5, fig.width=12, fig.retina=2, fig.align='center', message=FALSE, warning=FALSE}
+library(tidyverse)
+ggplot(cars, aes(x = dist, y = speed)) + 
+  geom_point() + 
+{{ geom_smooth(method = 'lm', formula = y ~ poly(x, 2))}} # we can highlight lines of code 
 ```
 
 ---

@@ -52,20 +52,13 @@ Image test. Taken from google.
 
 
 ```r
-2 + 2
+library(tidyverse)
+ggplot(cars, aes(x = dist, y = speed)) + 
+  geom_point() + 
+* geom_smooth(method = 'lm', formula = y ~ poly(x, 2)) # we can highlight lines of code 
 ```
 
-```
-## [1] 4
-```
-
-
-```r
-plot(speed ~ dist, data = cars)
-abline(lm(speed ~ dist, data = cars), col = 'red')
-```
-
-&lt;img src="index_files/figure-html/unnamed-chunk-2-1.png" width="504" style="display: block; margin: auto;" /&gt;
+&lt;img src="index_files/figure-html/unnamed-chunk-1-1.png" width="864" style="display: block; margin: auto;" /&gt;
 
 ---
 

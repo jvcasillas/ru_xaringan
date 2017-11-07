@@ -23,7 +23,6 @@ a, a > code {
 /* important code slightly red */
 .remark-code-line-highlighted { 
   background-color: #4B6FEA; 
-  color: #cc0033;
 }
 
 /* color tweak */
@@ -197,7 +196,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 
 /* section divider red H1 fonts */
 .title-slide-section-red h1 {
-  color: #666666;
+  color: #515151;
 }
 
 /* section divider red p fonts */
