@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="author" content="Joseph V. Casillas" />
     <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/fonts.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/5235085b15.js"></script>
     <link rel="stylesheet" href="http://www.jvcasillas.com/ru_xaringan/css/ru_xaringan.css" type="text/css" />
   </head>
@@ -148,12 +149,12 @@ class: center, middle
 
 --
 
-It is also possible to change the &lt;blue&gt;color&lt;/blue&gt; of any  
+It is also possible to change the .blue[color] of any  
 text by using... 
 
 --
 
-    &lt;COLOR&gt;text here&lt;/COLOR&gt; 
+    .color[text here]
 
 --
 
@@ -161,19 +162,19 @@ For example
 
 --
 
-    &lt;grey&gt;grey&lt;/grey&gt;
+    .grey[grey]
 
 --
 
-will make text &lt;grey&gt;grey&lt;/grey&gt;, &lt;black&gt;black&lt;/black&gt; and &lt;RUred&gt;red&lt;/RUred&gt; &lt;blue&gt;blue&lt;/blue&gt;
+will make text .grey[grey]
 
 --
 
-We can do this with white, grey, black, red and blue. 
+We can do this with white, .grey[grey], .black[black], .RUred[red] and .blue[blue]. 
 
 --
 
-Red is the easiest. We can just use \*\*text\*\* like **this**.
+To really make text stand out we can just use \*\*text\*\* like **this**.
 
 ---
 
@@ -301,7 +302,7 @@ remark.macros.scale = function (percentage) {
 - The theme was designed to work with a 16:9 aspect ratio
 - Set the aspect ratio under the **nature** output parameter...  
     nature:  
-      ratio: "16:9"
+      &amp;nbsp; &amp;nbsp; ratio: "16:9"
 
 
 ### Sections
@@ -329,9 +330,9 @@ class: title-slide-section-red
 
 - We can use **bold**
 
-- and &lt;blue&gt;blue&lt;/blue&gt;
+- and .blue[blue]
 
-- and also &lt;grey&gt;grey&lt;/grey&gt;
+- and also .grey[grey]
 
 ---
 class: title-slide-section-grey
@@ -344,9 +345,9 @@ class: title-slide-section-grey
 
 - We can use **bold**
 
-- and &lt;blue&gt;blue&lt;/blue&gt;
+- and .blue[blue]
 
-- and also &lt;black&gt;black&lt;/black&gt;
+- and also .black[black]
 
 ---
 
@@ -354,15 +355,18 @@ class: title-slide-section-grey
 
 ### Centering
 
-- We can center tables by surrounding them with .center[]
-- This is not standard in xaringan, but is added in the &lt;RUred&gt;ru_xaringan&lt;/RUred&gt; custom css
+- Tables are centered by default in **xaringan**. 
+- We can override this using...
 
-.center[
+    .pull-left[], .pull-right[], etc. 
 
-|  This |  is |  a   |     Table      |
-| :---- | :-- | :--- | :------------: |
-| It is | now | able | to be centered |
-| 12    | 34  | 56   |       78       |
+
+.pull-right[
+
+|  This |  is |   a    |    Table     |
+| :---- | :-- | :----- | :----------: |
+| It is | now | pulled | to the right |
+| 12    | 34  | 56     |      78      |
 
 ]
 
@@ -393,12 +397,12 @@ background-position: 9% 15%
 
 Here is an example:  
 
-|                                                                                                                 |                                       |
-| :-------------------------------------------------------------------------------------------------------------- | :------------------------------------ |
-| &lt;a href="mailto:joseph.casillas@rutgers.edu"&gt;&lt;RUred&gt;&lt;i class="fa fa-paper-plane fa-fw"&gt;&lt;/i&gt;&lt;/RUred&gt;               | joseph.casillas@rutgers.edu&lt;/a&gt;       |
-| &lt;a href="http://www.jvcasillas.com/ru_xaringan/slides/index.html"&gt;&lt;RUred&gt;&lt;i class="fa fa-link fa-fw"&gt;&lt;/i&gt;&lt;/RUred&gt; | jvcasillas.com/ru_xaringan/slides&lt;/a&gt; |
-| &lt;a href="http://twitter.com/jvcasill"&gt;&lt;RUred&gt;&lt;i class="fa fa-twitter fa-fw"&gt;&lt;/i&gt;&lt;/RUred&gt;                          | @jvcasill&lt;/a&gt;                         |
-| &lt;a href="http://github.com/jvcasillas"&gt;&lt;RUred&gt;&lt;i class="fa fa-github fa-fw"&gt;&lt;/i&gt;&lt;/RUred&gt;                          | @jvcasillas&lt;/a&gt;                       |
+|                                                                                                            |                                   |
+| :--------------------------------------------------------------------------------------------------------- | :-------------------------------- |
+| &lt;a href="mailto:joseph.casillas@rutgers.edu"&gt;.RUred[&lt;i class="fa fa-paper-plane fa-fw"&gt;&lt;/i&gt;]               | joseph.casillas@rutgers.edu       |
+| &lt;a href="http://www.jvcasillas.com/ru_xaringan/slides/index.html"&gt;.RUred[&lt;i class="fa fa-link fa-fw"&gt;&lt;/i&gt;] | jvcasillas.com/ru_xaringan/slides |
+| &lt;a href="http://twitter.com/jvcasill"&gt;.RUred[&lt;i class="fa fa-twitter fa-fw"&gt;&lt;/i&gt;]                          | @jvcasill                         |
+| &lt;a href="http://github.com/jvcasillas"&gt;.RUred[&lt;i class="fa fa-github fa-fw"&gt;&lt;/i&gt;]                          | @jvcasillas                       |
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script src="http://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"></script>

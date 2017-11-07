@@ -6,7 +6,7 @@ date: "Rutgers University </br> `r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: ["default", "http://www.jvcasillas.com/ru_xaringan/css/ru_xaringan.css"]
+    css: ["default", "fonts", "http://www.jvcasillas.com/ru_xaringan/css/ru_xaringan.css"]
     nature:
       beforeInit: ["http://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"]
       highlightStyle: github
@@ -139,12 +139,12 @@ class: center, middle
 
 --
 
-It is also possible to change the <blue>color</blue> of any  
+It is also possible to change the .blue[color] of any  
 text by using... 
 
 --
 
-    <COLOR>text here</COLOR> 
+    .color[text here]
 
 --
 
@@ -152,19 +152,19 @@ For example
 
 --
 
-    <grey>grey</grey>
+    .grey[grey]
 
 --
 
-will make text <grey>grey</grey>, <black>black</black> and <RUred>red</RUred> <blue>blue</blue>
+will make text .grey[grey]
 
 --
 
-We can do this with white, grey, black, red and blue. 
+We can do this with white, .grey[grey], .black[black], .RUred[red] and .blue[blue]. 
 
 --
 
-Red is the easiest. We can just use \*\*text\*\* like **this**.
+To really make text stand out we can just use \*\*text\*\* like **this**.
 
 ---
 
@@ -287,7 +287,7 @@ remark.macros.scale = function (percentage) {
 - The theme was designed to work with a 16:9 aspect ratio
 - Set the aspect ratio under the **nature** output parameter...  
     nature:  
-      ratio: "16:9"
+      &nbsp; &nbsp; ratio: "16:9"
 
 
 ### Sections
@@ -315,9 +315,9 @@ class: title-slide-section-red
 
 - We can use **bold**
 
-- and <blue>blue</blue>
+- and .blue[blue]
 
-- and also <grey>grey</grey>
+- and also .grey[grey]
 
 ---
 class: title-slide-section-grey
@@ -330,9 +330,9 @@ class: title-slide-section-grey
 
 - We can use **bold**
 
-- and <blue>blue</blue>
+- and .blue[blue]
 
-- and also <black>black</black>
+- and also .black[black]
 
 ---
 
@@ -340,15 +340,18 @@ class: title-slide-section-grey
 
 ### Centering
 
-- We can center tables by surrounding them with .center[]
-- This is not standard in xaringan, but is added in the <RUred>ru_xaringan</RUred> custom css
+- Tables are centered by default in **xaringan**. 
+- We can override this using...
 
-.center[
+    .pull-left[], .pull-right[], etc. 
 
-|  This |  is |  a   |     Table      |
-| :---- | :-- | :--- | :------------: |
-| It is | now | able | to be centered |
-| 12    | 34  | 56   |       78       |
+
+.pull-right[
+
+|  This |  is |   a    |    Table     |
+| :---- | :-- | :----- | :----------: |
+| It is | now | pulled | to the right |
+| 12    | 34  | 56     |      78      |
 
 ]
 
@@ -379,10 +382,10 @@ background-position: 9% 15%
 
 Here is an example:  
 
-|                                                                                                                 |                                       |
-| :-------------------------------------------------------------------------------------------------------------- | :------------------------------------ |
-| <a href="mailto:joseph.casillas@rutgers.edu"><RUred><i class="fa fa-paper-plane fa-fw"></i></RUred>               | joseph.casillas@rutgers.edu</a>       |
-| <a href="http://www.jvcasillas.com/ru_xaringan/slides/index.html"><RUred><i class="fa fa-link fa-fw"></i></RUred> | jvcasillas.com/ru_xaringan/slides</a> |
-| <a href="http://twitter.com/jvcasill"><RUred><i class="fa fa-twitter fa-fw"></i></RUred>                          | @jvcasill</a>                         |
-| <a href="http://github.com/jvcasillas"><RUred><i class="fa fa-github fa-fw"></i></RUred>                          | @jvcasillas</a>                       |
+|                                                                                                            |                                   |
+| :--------------------------------------------------------------------------------------------------------- | :-------------------------------- |
+| <a href="mailto:joseph.casillas@rutgers.edu">.RUred[<i class="fa fa-paper-plane fa-fw"></i>]               | joseph.casillas@rutgers.edu       |
+| <a href="http://www.jvcasillas.com/ru_xaringan/slides/index.html">.RUred[<i class="fa fa-link fa-fw"></i>] | jvcasillas.com/ru_xaringan/slides |
+| <a href="http://twitter.com/jvcasill">.RUred[<i class="fa fa-twitter fa-fw"></i>]                          | @jvcasill                         |
+| <a href="http://github.com/jvcasillas">.RUred[<i class="fa fa-github fa-fw"></i>]                          | @jvcasillas                       |
 

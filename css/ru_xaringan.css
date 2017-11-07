@@ -7,28 +7,6 @@ Updated: 10/15/2017
 
 /* Package defaults that we slightly tweak */
 
-body { font-family: 'Droid Serif', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif; }
-h1, h2, h3 {
-  font-family: 'Yanone Kaffeesatz';
-  font-weight: normal;
-}
-
-.remark-code, .remark-inline-code { font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace; }
-.remark-code-line-highlighted     { background-color: #ffff88; }
-
-a, a > code {
-  color: rgb(249, 38, 114);
-  text-decoration: none;
-}
-.footnote {
-  position: absolute;
-  bottom: 3em;
-  padding-right: 4em;
-  font-size: 90%;
-}
-.remark-code, .remark-inline-code { font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace; }
-.remark-code-line-highlighted     { background-color: #ffff88; }
-
 .inverse {
   background-color: #272822;
   color: #777872;
