@@ -310,7 +310,7 @@ table {
  }
 
 table thead th { border-bottom: none }
-thead, tfoot, tr:nth-child(even) { background: #fff }
+thead, tfoot, tr:nth-child(even) { background: none }
 
 
 
