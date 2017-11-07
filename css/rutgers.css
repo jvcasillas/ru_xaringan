@@ -14,7 +14,7 @@ a, a > code {
 
 /* slightly lower and bigger than default */
 .footnote {
-  position: bottom;
+  position: absolute;
   /*bottom: 1em;*/
   padding-right: 4em;
   font-size: 95%;
@@ -77,7 +77,7 @@ blockquote {
   border-left: solid 5px lightgray;
   background-color: #cc0033;
   padding-left: 1em;
-  color: #515151;
+  color: #fff;
 }
 
 
