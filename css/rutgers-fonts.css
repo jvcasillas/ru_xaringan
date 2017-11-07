@@ -1,14 +1,14 @@
 
 /* Add maven for code font (keep other xaringan defaults */
-@import url(https://fonts.googleapis.com/css?family=Ubuntu)
+@import url(https://fonts.googleapis.com/css?family=Roboto)
 @import url(https://fonts.googleapis.com/css?family=Inconsolata);
 /*@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);*/
 /*@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);*/
 /*@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);*/
 
-body { font-family: 'Ubuntu', serif; }
+body { font-family: 'Roboto', sans-serif; }
 h1, h2, h3 {
-  font-family: 'Ubuntu';
+  font-family: 'Roboto';
   font-weight: normal;
 }
 
