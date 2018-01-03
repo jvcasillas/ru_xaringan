@@ -53,7 +53,7 @@ Image test. Taken from google.
 library(tidyverse)
 ggplot(cars, aes(x = dist, y = speed)) + 
   geom_point() + 
-* geom_smooth(method = 'lm', formula = y ~ poly(x, 2)) # we can highlight lines of code 
+{{ geom_smooth(method = 'lm', formula = y ~ poly(x, 2))}} # we can highlight lines of code 
 ```
 
 ---
