@@ -209,7 +209,7 @@ thead, tfoot, tr:nth-child(even) { background: none; }
 
 /* section divider grey H1 fonts */
 .title-slide-section-grey h1, .title-slide-section-grey h2, .title-slide-section-grey h3 {
-  color: #cc0033;
+  color: #fff;
 }
 
 .title-slide-section-grey p {
