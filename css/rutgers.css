@@ -76,17 +76,8 @@ img, video, iframe {
 }
 
 blockquote {
-  display: block;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 40px;
-  margin-right: 40px;
-  border-left: solid 10px #cc0033;
-  background-color: #818181;
-  padding: 1em;
-  color: #fff;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px; 
+  border-left: solid 5px lightgray;
+  padding-left: 1em;
 }
 
 /* adjust table horizontal spacing */
@@ -305,10 +296,19 @@ h3 {
 
 
 
-/* Twitter blockquote */
-twitter-blockquote {
-  border-left: solid 5px lightgray;
-  padding-left: 1em;
+/* ru blockquote */
+ru-blockquote {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-left: solid 10px #cc0033;
+  background-color: #818181;
+  padding: 1em;
+  color: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px; 
 }
 
 
