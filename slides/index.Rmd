@@ -64,10 +64,10 @@ ggplot(cars, aes(x = dist, y = speed)) +
   - can be created using "-"
   - and they can be nested using 2 or 4 spaces
 - We can also make `blockquotes`
-  - we can use `<blockquote>text</blockquote>` 
+  - we can use `<ru-blockquote>text</ru-blockquote>` 
   - or `>`
 
-<blockquote>This is a blocked quote</blockquote>
+<ru-blockquote>This is a blocked quote</ru-blockquote>
 
 - Footnotes<sup>1</sup>
 
