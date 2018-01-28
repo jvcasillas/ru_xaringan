@@ -305,8 +305,11 @@ h3 {
 
 
 
-
-
+/* Twitter blockquote */
+twitter-blockquote {
+  border-left: solid 5px lightgray;
+  padding-left: 1em;
+}
 
 
 
