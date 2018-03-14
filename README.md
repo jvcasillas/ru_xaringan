@@ -10,7 +10,10 @@ Example presentation [here](http://www.jvcasillas.com/ru_xaringan/slides/index.h
 
 ## Usage
 
-You can use ```lingStuff::create_project()``` or just copy and paste the css link below. 
+The Rutgers theme is now part of `xaringan` (as of 3/9/2018). You can 
+use it by addints `rutgers` and `rutgers-fonts` to the `css` call in 
+the yaml front matter: 
+
 
 ```
 ---
@@ -21,7 +24,7 @@ date: "Rutgers University </br> `r Sys.Date()`"
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: ["http://www.jvcasillas.com/ru_xaringan/css/rutgers.css", "http://www.jvcasillas.com/ru_xaringan/css/rutgers-fonts.css"]
+    css: ["rutgers", "rutgers-fonts"]
     nature:
       beforeInit: "http://www.jvcasillas.com/ru_xaringan/js/ru_xaringan.js"
       highlightStyle: github
