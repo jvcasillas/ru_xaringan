@@ -11,8 +11,8 @@ Example presentation [here](http://www.jvcasillas.com/ru_xaringan/slides/index.h
 ## Usage
 
 The Rutgers theme is now part of `xaringan` (as of 3/9/2018). You can 
-use it by addints `rutgers` and `rutgers-fonts` to the `css` call in 
-the yaml front matter: 
+use it by downloading the latest version of `xaringan` and adding `rutgers` 
+and `rutgers-fonts` to the `css` call in the yaml front matter: 
 
 
 ```
