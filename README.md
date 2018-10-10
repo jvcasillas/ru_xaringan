@@ -4,10 +4,7 @@ Minimalist xaringan theme for html presentations using RU style/colors
 
 ## Examples
 
-![Title slide](./img/ex/title_slide.png)
-![Slide basics](./img/ex/slide_basics.png)
-![RU grey](./img/ex/ru_grey.png)
-![Final slide](./img/ex/final_slide.png)
+![Title slide](./img/ex/rutgers_showcase.gif)
 
 Example presentation [here](http://www.jvcasillas.com/ru_xaringan/slides/index.html). 
 
